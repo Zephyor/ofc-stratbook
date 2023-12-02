@@ -37,12 +37,12 @@ const containerStyle = {
 };
 
 const logoStyle = {
-  width: '80px', // Adjust the width based on your preference
+  width: '60px', // Adjust the width based on your preference
   marginRight: '10px', // Add margin for spacing between logo and title
 };
 
 const cslogoStyle = {
-  width: '80px', // Adjust the width based on your preference // Add margin for spacing between logo and title
+  width: '60px', // Adjust the width based on your preference // Add margin for spacing between logo and title
   borderRadius: '50%',
   marginRight: '2rem',
 };

@@ -14,10 +14,10 @@ const cardStyle = {
 
 const MapCard = ({ mapName, image }) => {
   return (
-    <div style={{ margin: '0.5rem' }}>
+    <div style={{ margin: '0.1rem' }}>
       <Card
         className='card'
-        sx={{ ...cardStyle, minHeight: '400px', width: '380px' }}
+        sx={{ ...cardStyle, minHeight: '320px', width: '320px' }}
       >
         <CardCover>
           <img
