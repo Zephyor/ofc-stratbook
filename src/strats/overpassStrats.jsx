@@ -26,6 +26,7 @@ const overpassStrategies = [
             href='https://www.youtube.com/watch?v=jiT2Mak9AzI&ab_channel=xKitoMusic'
             rel='noreferrer'
             target='_blank'
+            style={{ color: '#F5AF0D', textDecoration: 'none' }}
           >
             Lien
           </a>
