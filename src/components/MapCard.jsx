@@ -17,7 +17,7 @@ const MapCard = ({ mapName, image }) => {
     <div style={{ margin: '0.1rem' }}>
       <Card
         className='card'
-        sx={{ ...cardStyle, minHeight: '20rem', width: '20rem' }}
+        sx={{ ...cardStyle, minHeight: '18rem', width: '85%' }}
       >
         <CardCover>
           <img
