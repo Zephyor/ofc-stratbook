@@ -34,15 +34,16 @@ const containerStyle = {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
+  flexWrap: 'wrap', // Allow items to wrap to the next line on smaller screens
 };
 
 const logoStyle = {
-  width: '60px', // Adjust the width based on your preference
-  marginRight: '10px', // Add margin for spacing between logo and title
+  width: '60px',
+  marginRight: '10px',
 };
 
 const cslogoStyle = {
-  width: '60px', // Adjust the width based on your preference // Add margin for spacing between logo and title
+  width: '60px',
   borderRadius: '50%',
   marginRight: '2rem',
 };
@@ -54,7 +55,7 @@ const titleContainerStyle = {
 };
 
 const titleStyle = {
-  margin: 0, // Remove default margin for the h1 element
+  margin: 0,
 };
 
 export default Header;
