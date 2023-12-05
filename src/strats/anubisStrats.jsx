@@ -27,7 +27,35 @@ const anubisStrategies = [
     ),
     side: 'CT',
   },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
+  {
+    title: 'T Pistol Fast Split A',
+    content: (
+      <ul>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 1</strong> (NAT') - Achète Smoke / 2x Flash, Drop une
+          flash au meilleur spawn et lance la smoke split A, se prépare à flash
+          broky et garde le back
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 2</strong> (Meilleur spawn A) - Achète Kevlar, Joue main
+          A en slow en 2 temps
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 3</strong> (Spawn 1 Mid) - Achète Kevlar, Lance la flash
+          pour casser la ligne et saute les lignes Mid
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 4</strong> (Spawn 2 Mid) - Achète Kevlar, Cours mid et
+          trade le spawn 1 et split A
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 5</strong> (Spawn 3 Mid) - Achète Kevlar, Cours mid et
+          trade le spawn 1 et 2 et split A
+        </li>
+      </ul>
+    ),
+    side: 'T',
+  },
   // Add more strategies as needed
 ];
 
