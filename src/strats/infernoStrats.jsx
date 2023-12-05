@@ -24,8 +24,9 @@ const infernoStrategies = [
         </li>
       </ul>
     ),
+    side: 'CT',
   },
-  { title: 'T Pistol Split A', content: 'A revoir' },
+  { title: 'T Pistol Split A', content: 'A revoir', side: 'T' },
   // Add more strategies as needed
 ];
 

@@ -58,6 +58,7 @@ const nukeStrategies = [
         </li>
       </ul>
     ),
+    side: 'T',
   },
   {
     title: 'T Pistol Passage B into Vent',
@@ -86,6 +87,7 @@ const nukeStrategies = [
         </li>
       </ul>
     ),
+    side: 'T',
   },
   {
     title: 'CT Pistol Réception Ramp',
@@ -135,6 +137,7 @@ const nukeStrategies = [
         </li>
       </ul>
     ),
+    side: 'CT',
   },
   {
     title: 'CT Pistol Réception A',
@@ -159,6 +162,7 @@ const nukeStrategies = [
         </li>
       </ul>
     ),
+    side: 'CT',
   },
   {
     title: 'CT Pistol Double Peek Porte',
@@ -209,6 +213,7 @@ const nukeStrategies = [
         </li>
       </ul>
     ),
+    side: 'CT',
   },
 ];
 

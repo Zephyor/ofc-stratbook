@@ -33,6 +33,36 @@ const overpassStrategies = [
         </li>
       </ul>
     ),
+    side: 'CT',
+  },
+  {
+    title: 'CT Pistol Réception B',
+    content: (
+      <ul>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 1</strong> (Sakeazey) - Achète Kevlar, Joue Close Monster
+          au Dual
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 2</strong> (NAT') - Achète Kevlar, Joue Close Short au
+          Dual
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 3</strong> (Pilou) - Achète Kevlar, Joue Toxic avec le
+          premier contact
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 4</strong> (Nino) - Achète Kevlar, Joue Pillier en aim
+          map
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 5</strong> (Zephyor) - Achète 2 Dual / Flash, Drop les
+          Dual à NAT' et Sakeazey et joue le A en prise d'info + flash pour
+          retake
+        </li>
+      </ul>
+    ),
+    side: 'CT',
   },
   {
     title: 'T Pistol Exec A',
@@ -91,6 +121,7 @@ const overpassStrategies = [
         </li>
       </ul>
     ),
+    side: 'T',
   },
   {
     title: 'T Pistol Fast Exec B',
@@ -154,18 +185,8 @@ const overpassStrategies = [
         </li>
       </ul>
     ),
+    side: 'T',
   },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
 
   // Add more strategies as needed
 ];
