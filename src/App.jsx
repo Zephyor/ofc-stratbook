@@ -1,4 +1,6 @@
+// Import necessary dependencies
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import MapStrats from './scenes/MapStrats';
 import MapCard from './components/MapCard';
 import overpassImage from './assets/Overpass.jpg';
@@ -12,6 +14,7 @@ import Header from './components/Header';
 import Grid from '@mui/material/Grid';
 import './App.css';
 
+// Define the maps array
 const maps = [
   { id: 'overpass', mapName: 'Overpass', image: overpassImage },
   { id: 'nuke', mapName: 'Nuke', image: nukeImage },
@@ -22,48 +25,56 @@ const maps = [
   { id: 'mirage', mapName: 'Mirage', image: mirageImage },
 ];
 
+// App component
 function App() {
   return (
     <div className='body'>
+      {/* Move the Router to the outermost level */}
       <Router>
         <Header />
-        <Routes>
-          <Route
-            path='/'
-            element={
-              <div
-                style={{
-                  margin: '0 auto',
-                  marginTop: '3rem',
-                  maxWidth: '85%',
-                }}
-              >
-                <Grid
-                  container
-                  spacing={3}
-                  justifyContent='center'
-                  alignItems='center'
-                  style={{ textAlign: 'center' }}
-                >
-                  {maps.map((map) => (
-                    <Grid item key={map.id} xs={12} sm={6} md={4} lg={3}>
-                      <Link to={`/maps/${map.id}`} style={linkStyle}>
-                        <MapCard mapName={map.mapName} image={map.image} />
-                      </Link>
+        {/* Wrap the Routes in TransitionGroup */}
+        <TransitionGroup>
+          {/* Use CSSTransition for page transition */}
+          <CSSTransition timeout={500} classNames='fade'>
+            <Routes>
+              <Route
+                path='/'
+                element={
+                  <div
+                    style={{
+                      margin: '0 auto',
+                      marginTop: '3rem',
+                      maxWidth: '85%',
+                    }}
+                  >
+                    <Grid
+                      container
+                      spacing={3}
+                      justifyContent='center'
+                      alignItems='center'
+                      style={{ textAlign: 'center' }}
+                    >
+                      {maps.map((map) => (
+                        <Grid item key={map.id} xs={12} sm={6} md={4} lg={3}>
+                          <Link to={`/maps/${map.id}`} style={linkStyle}>
+                            <MapCard mapName={map.mapName} image={map.image} />
+                          </Link>
+                        </Grid>
+                      ))}
                     </Grid>
-                  ))}
-                </Grid>
-              </div>
-            }
-          />
-          {maps.map((map) => (
-            <Route
-              key={map.id}
-              path={`/maps/${map.id}`}
-              element={<MapStrats mapName={map.mapName} />}
-            />
-          ))}
-        </Routes>
+                  </div>
+                }
+              />
+              {maps.map((map) => (
+                <Route
+                  key={map.id}
+                  path={`/maps/${map.id}`}
+                  element={<MapStrats mapName={map.mapName} />}
+                />
+              ))}
+            </Routes>
+          </CSSTransition>
+        </TransitionGroup>
       </Router>
     </div>
   );

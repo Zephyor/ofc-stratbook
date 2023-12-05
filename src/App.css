@@ -3,7 +3,31 @@ body {
   padding: 0%;
   margin: 0%;
   overflow-x: hidden;
-  color: 'f1f1f1';
+  color: #f1f1f1;
+}
+
+/* Fade transition styles */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+  -webkit-transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
 }
 
 /* App.css or your CSS file */

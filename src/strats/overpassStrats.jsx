@@ -34,8 +34,127 @@ const overpassStrategies = [
       </ul>
     ),
   },
-  { title: 'T Pistol B Fast Exec', content: 'blblbbl' },
-  { title: 'Strategy 2', content: 'Content for Strategy 2.' },
+  {
+    title: 'T Pistol Exec A',
+    content: (
+      <ul>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 1</strong> (Sakeazey) - Achète P250 / Smoke / Flash,
+          Flash sortie conn depuis le mid et smoke poubelle
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 2</strong> (NAT') - Achète Molo / Double Flash, Joue conn
+          et molo truck + double flash entry BP
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 3</strong> (Nino) - Achète Kevlar + Joue Con
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 4</strong> (Pilou) - Achète Kevlar + Joue Con
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 5</strong> (Zephyor) - Achète Kevlar + Control mid avec
+          Sakeazey
+        </li>
+        <li>
+          Lien vers les vidéo pour les stuff:{' '}
+          <ul>
+            <a
+              href=''
+              rel='noreferrer'
+              target='_blank'
+              style={{ color: '#F5AF0D', textDecoration: 'none' }}
+            >
+              Smoke Poubelle
+            </a>
+          </ul>
+          <ul>
+            <a
+              href=''
+              rel='noreferrer'
+              target='_blank'
+              style={{ color: '#F5AF0D', textDecoration: 'none' }}
+            >
+              Molo Truck
+            </a>
+          </ul>
+          <ul>
+            <a
+              href=''
+              rel='noreferrer'
+              target='_blank'
+              style={{ color: '#F5AF0D', textDecoration: 'none' }}
+            >
+              Flash entry BP
+            </a>
+          </ul>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: 'T Pistol Fast Exec B',
+    content: (
+      <ul>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 1</strong> (Pilou) - Achète Smoke / Molo, Va conn et
+          smoke la gauche, puis molo toxic et garde le conn
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 2</strong> (NAT') - Achète Smoke / Double Flash, prend la
+          constru avec le meilleur spawn des 3 autres, puis smoke Heaven et
+          flash sortie monster puis pillier
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 3</strong> (Spawn 1) - Achète Kevlar, Prend la constru
+          avec NAT' puis repars Monster avec les autres et sors sur les flash de
+          NAT'
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 4</strong> (Spawn 2) - Achète Kevlar, Se cache contact
+          Monster anti flash et sort sur les flash de NAT'
+        </li>
+        <li style={{ marginBottom: '0.6rem' }}>
+          <strong>Rôle 5</strong> (Spawn 3) - Achète Kevlar, Se cache contact
+          Monster prend la ligne au cas où et sort sur les flash de NAT'
+          Sakeazey
+        </li>
+        <li>
+          Lien vers les vidéo pour les stuff:{' '}
+          <ul>
+            <a
+              href=''
+              rel='noreferrer'
+              target='_blank'
+              style={{ color: '#F5AF0D', textDecoration: 'none' }}
+            >
+              Smoke Heaven
+            </a>
+          </ul>
+          <ul>
+            <a
+              href=''
+              rel='noreferrer'
+              target='_blank'
+              style={{ color: '#F5AF0D', textDecoration: 'none' }}
+            >
+              Flash Sortie Monster
+            </a>
+          </ul>
+          <ul>
+            <a
+              href=''
+              rel='noreferrer'
+              target='_blank'
+              style={{ color: '#F5AF0D', textDecoration: 'none' }}
+            >
+              Flash Pillier
+            </a>
+          </ul>
+        </li>
+      </ul>
+    ),
+  },
   { title: 'Strategy 2', content: 'Content for Strategy 2.' },
   { title: 'Strategy 2', content: 'Content for Strategy 2.' },
   { title: 'Strategy 2', content: 'Content for Strategy 2.' },
